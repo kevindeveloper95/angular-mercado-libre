@@ -1,0 +1,85 @@
+/*AQUI EMPIEZA LA CUARTA SECCION*/
+
+.four-section{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows: 15% 85%;
+    background-color:whitesmoke;
+    max-width: 1100px;
+    max-height: 400px;
+   margin-left: 600px;
+   margin-bottom: 150px;
+    grid-gap: 100px;
+}
+
+.container{
+    background-color: white;
+    width:300px;
+    height: 525px;
+    grid-row: 2;
+   
+    justify-self:end;
+    
+}
+
+.container img{
+    width:300px;
+    height:325px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.container h3,h5,a,p{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.price{
+    color:rgba(0,0,0,.8);
+    font-size:24px
+    }
+
+    .promotion{
+        color:#00a650;
+        font-size: 14px;
+        
+    }
+
+    .travel{
+        color:#00a650;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .description{
+        font-size: 14px;
+        
+    }
+
+    
+    .container .third-image{
+        width:29px;
+        height:23px
+
+    }
+
+    .first-title{
+grid-column: 1;
+grid-row: 1;
+justify-self:start;
+align-self:center;
+margin-left: 10px;
+color: #666;
+}
+
+.sub-title{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 15px;
+    justify-self:center;
+    align-self:center;
+    margin-left: 50px;
+    text-decoration: none;
+    color:var(--color1);
+
+}

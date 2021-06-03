@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --color:black;
+    --color1: blue;
+    --color2:#333;
+}
+
+body{
+    background-color: whitesmoke;
+}
+

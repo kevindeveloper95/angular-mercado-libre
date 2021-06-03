@@ -1,0 +1,228 @@
+.first-section{
+    background-color: #fff159;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 10% 20% 40% 20% 10%;
+    grid-template-rows: 50% 50%;
+
+}
+
+
+.mercado-libre{
+ display: grid;
+grid-column: 2;
+grid-row: 1;
+width: 141px;
+height: 32px;
+margin-top: 12px;
+justify-self: center;
+}
+
+.first-input{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    width: 600px;
+    height: 40px;
+    justify-self: start;
+    align-self: center;
+    margin-left: 19px;
+}
+
+
+.search{
+    width:20px;
+    height:20px;
+    position: absolute;
+    left: 61%;
+    top: 25px;
+    background-color:whitesmoke;
+    
+
+}
+
+.one{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color);
+    margin-left: 50px;
+
+}
+
+.logo-ubication{
+    grid-column: 2;
+    grid-row: 2; 
+    width: 141px;
+    height: 32px;
+    margin-top: 12px;
+    margin-left: 70px;
+
+
+}
+
+.two{
+    grid-column: 3;
+    grid-row: 2; 
+    align-self: center;
+    text-decoration: none;
+    color:var(--color2);
+    margin-left: 18px;
+
+
+}
+
+
+
+
+.three{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 100px;
+    align-self: center;
+    justify-self:start;
+    text-decoration: none;
+    color:var(--color2);
+    font-family:"Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.four{
+    grid-column: 3;
+    grid-row: 2;  
+    margin-left: 160px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color2);
+    font-family:"Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.five{
+    grid-column: 3;
+    grid-row: 2;  
+    margin-left: 229px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color2);
+    font-family:"Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.six{
+    grid-column: 3;
+    grid-row: 2;  
+    margin-left: 333px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color2);
+    font-family:"Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.seven{
+    grid-column: 3;
+    grid-row: 2;  
+    margin-left: 383px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color2);
+    font-family:"Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.eight{
+    grid-column: 3;
+    grid-row: 2;  
+    margin-left: 443px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color2);
+    font-family:"Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    
+}
+
+.nine{
+    grid-column: 4;
+    grid-row: 2;  
+    align-self: center;
+    text-decoration: none;
+    color:var(--color);
+    margin-left: 10px;
+    
+}
+
+.teen{
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;  
+    margin-left: 108px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color)
+}
+
+.eleven{
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;  
+    margin-left: 168px;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color)
+}
+
+.logo-car{
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;  
+    width: 20px;
+    height: 20px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 160px;
+    
+}
+
+.twelf{
+    display: grid;
+    grid-column: 4;
+    grid-row: 1;  
+    justify-self: start;
+    align-self: center;
+    text-decoration: none;
+    color:var(--color);
+    margin-left: 40px;
+}
+
+.logo-flame{
+    display: grid;
+    grid-column: 4;
+    grid-row: 1;  
+    width: 20px;
+    height: 20px;
+    justify-self: start;
+    align-self: center;
+    margin-left: 15px;
+    
+}
+
+/*AQUI EMPIEZA LA SEGUNDA SECCION*/
+
+.second-section{
+ display: grid;
+grid-template-columns: 10% 80% 10%;
+grid-template-rows: 70% 30%;
+
+}
+.publicity{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    justify-self: center;
+    height: 400px;
+    width: 1550px;
+}
