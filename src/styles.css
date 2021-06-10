@@ -2,9 +2,11 @@
     --color:black;
     --color1: blue;
     --color2:#333;
+    --font:Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: #e7e7e7;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; ;
 }
 

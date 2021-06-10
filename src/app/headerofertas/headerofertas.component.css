@@ -1,37 +1,155 @@
 /*AQUI EMPIEZA LA CUARTA SECCION*/
-
-.four-section{
+.header{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20% ;
-    grid-template-rows: 15% 85%;
-    background-color:whitesmoke;
-    max-width: 1100px;
-    max-height: 400px;
-   margin-left: 600px;
-   margin-bottom: 150px;
-    grid-gap: 100px;
+    grid-template-columns: repeat(20, 1fr);
+    background-color: white;
+    min-height: 170px;
+    margin: auto;
+    margin-right: 120px;
 }
 
-.container{
-    background-color: white;
-    width:300px;
-    height: 525px;
-    grid-row: 2;
-   
-    justify-self:end;
+.list-header {
+    grid-column: 5/6;
+    min-width: 350px;
+    min-height: 100px;
+    margin-left: 180px;
+    align-self: end;
     
 }
 
-.container img{
-    width:300px;
-    height:325px;
-    border-bottom: 1px solid gainsboro;
+.list-ofertas{
+font-size: 30px;
+font-weight: bolder;
+
 }
 
-.container h3,h5,a,p{
+
+
+.header img{
+    width: 150px;
+    height: 60px;
+}
+
+.container-img{
+    display: grid;
+    justify-self: center;
+    align-self: center;  
+    width: 150px;
+}
+
+.img-header{
+   margin-left: 20px; 
+}
+
+.a-header{
+display: grid;
+justify-content: center ;
+}
+
+.a-header:hover{
+    color: royalblue;
+
+}
+
+
+
+
+
+.four-section{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1300px;
+    max-height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    font-family:var(--font);
+   
+}
+
+.container-1{
+    width:203px;
+    height: 410px;
+    grid-column: 15/16;
+    justify-self:start;
+    background-color: white;
+    min-height: 570px;
+   margin-left: 250px;
+    
+}
+
+.container-2{
+    background-color: white;
+    width:203px;
+    height: 410px;
+    grid-column: 17/18;
+    justify-self:start;
+    min-height: 570px;
+
+    
+}
+
+.container-3{
+    background-color: white;
+    width:203px;
+    height: 410px;
+    grid-column: 19/20;
+    justify-self:start;
+    min-height: 570px;
+    
+    
+}
+
+.container-1, .second-image{
+    width:300px;
+    height:350px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+
+.container-2, .three-image{
+    width:300px;
+    height:350px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+
+.container-3, .four-image{
+    width:300px;
+    height:350px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+
+.container-1 h3,h5,a,p,strong{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
+    
+}
+
+.container-2 h3,h5,a,p{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.container-3 h3,h5,a,p{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.offer{
+    font-size: 11px; 
+    margin-left: 20px;
+    background-color: #3483fa;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
     
 }
 .price{
@@ -56,30 +174,116 @@
         
     }
 
-    
-    .container .third-image{
+    .container-1 > .button-containe ,.a-container{
+      text-decoration: none;
+      color: #3483fa;
+      margin-right: 18px;
+    }
+
+    .container-2 > .button-containe ,.a-container{
+        text-decoration: none;
+        color: #3483fa;
+        margin-right: 18px;
+      }
+
+      .container-3 > .button-containe ,.a-container{
+        text-decoration: none;
+        color: #3483fa;
+        margin-right: 18px;
+      }
+
+     .container-1 >.button-container{
+        padding: 8px;
+        justify-self: center;
+        width: 175px;
+        color: #3483fa;
+        border: #3483fa 1px solid;
+        margin-left: 13px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .container-2 >.button-container{
+        padding: 8px;
+        justify-self: center;
+        width: 175px;
+        color: #3483fa;
+        border: #3483fa 1px solid;
+        margin-left: 13px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .container-3 >.button-container{
+        padding: 8px;
+        justify-self: center;
+        width: 175px;
+        color: #3483fa;
+        border: #3483fa 1px solid;
+        margin-left: 13px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .container-1 >.button-container:hover{
+      background: whitesmoke;
+    }
+
+    .container-2 >.button-container:hover{
+        background: whitesmoke;
+      }
+
+      .container-3 >.button-container:hover{
+        background: whitesmoke;
+      }
+
+    .container-1 .third-image{
         width:29px;
         height:23px
 
     }
 
-    .first-title{
-grid-column: 1;
-grid-row: 1;
-justify-self:start;
-align-self:center;
-margin-left: 10px;
-color: #666;
-}
+    .container-2 .third-image{
+        width:29px;
+        height:23px
 
-.sub-title{
-    grid-column: 1;
-    grid-row: 1;
-    margin-top: 15px;
-    justify-self:center;
-    align-self:center;
-    margin-left: 50px;
-    text-decoration: none;
-    color:var(--color1);
+    }
 
-}
+    .container-3 .third-image{
+        width:29px;
+        height:23px
+
+    }
+
+    .ofertas{
+        grid-column: 3/5;
+        grid-row: 1;
+        max-width: 200px;
+        min-width: 327px;
+        margin-top: 0px;
+        
+    }
+
+    .ofertas ul,li,a{
+        text-decoration: none ;
+        list-style: none;
+        padding: 5px;
+        color: #333;
+        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        font-size: 14px;
+        
+
+    }
+
+    .title{
+        font-size: 16px;
+        font-weight: bolder;
+        color: black;
+        margin-left: 25px;
+        margin-top: 20px;
+        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        
+    }
+
+  
+

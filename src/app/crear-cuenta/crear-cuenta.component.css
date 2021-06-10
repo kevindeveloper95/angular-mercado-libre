@@ -1,0 +1,130 @@
+
+
+
+
+
+.create-account{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    max-width: 800px;
+    max-height: 320px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 336px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+   
+
+}
+
+.container-title{
+    position: absolute;
+    
+}
+
+
+
+.h2-account{
+    position: absolute;
+    left: 550px;
+    top: 24px;
+    width: 250px;
+    
+}
+
+.a-account{
+    position: absolute;
+    left: 1130px;
+    top: 53px;
+    width: 250px;
+    text-decoration: none;
+    color: #3483fa;
+    
+    
+}
+
+
+
+
+ .container-nombre{
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 2;
+    margin-left: 50px;
+    color:#999;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+.container-apellido{
+    grid-column: 5/7;
+    grid-row: 2;
+    margin-left: 75px;
+    color:#999;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container-email{
+    grid-column: 1/4;
+    grid-row: 3;
+    margin-left: 50px;
+    color:#999;
+    font-size: 14px;
+    margin-top: 20px;
+    
+    
+}
+
+.container-clave{
+    grid-column: 5/7;
+    grid-row: 3;
+    margin-left: 75px;
+    color:#999;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+
+.container-checkbox{
+    grid-column: 1/10;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 13px;
+    
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    right: 17px;
+    bottom: 44px;
+    border: 1px solid #999;
+    
+    
+}
+
+.input-form{
+    width: 300px;
+    border: transparent;
+    border-bottom: solid 1px #999;
+    text-justify:unset
+}
+
+.a-checkbox > a{
+    text-decoration: none;
+    color: #3483fa;;
+    
+}
+
+.a-checkbox{
+    color: #999;
+    width: 628px;
+    margin-left: 10px;
+    
+}

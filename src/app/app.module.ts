@@ -10,6 +10,9 @@ import { HeaderofertasComponent } from './headerofertas/headerofertas.component'
 import { HomeComponent } from './home/home.component';
 import { SupermercadoComponent } from './supermercado/supermercado.component';
 import { ModaComponent } from './moda/moda.component';
+import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
+import { IngresaComponent } from './ingresa/ingresa.component';
+import { ProductoComponent } from './producto/producto.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ModaComponent } from './moda/moda.component';
     HeaderofertasComponent,
     HomeComponent,
     SupermercadoComponent,
-    ModaComponent
+    ModaComponent,
+    CrearCuentaComponent,
+    IngresaComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,

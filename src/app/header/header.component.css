@@ -16,6 +16,7 @@ width: 141px;
 height: 32px;
 margin-top: 12px;
 justify-self: center;
+margin-left: 125px;
 }
 
 .first-input{
@@ -27,6 +28,9 @@ justify-self: center;
     justify-self: start;
     align-self: center;
     margin-left: 19px;
+    font-size: 15px;
+    
+    
 }
 
 
@@ -36,7 +40,10 @@ justify-self: center;
     position: absolute;
     left: 61%;
     top: 25px;
-    background-color:whitesmoke;
+    background-color:white;
+    
+    
+    
     
 
 }
@@ -48,7 +55,7 @@ justify-self: center;
     align-self: center;
     text-decoration: none;
     color:var(--color);
-    margin-left: 50px;
+    margin-left: 150px;
 
 }
 
@@ -56,9 +63,9 @@ justify-self: center;
     grid-column: 2;
     grid-row: 2; 
     width: 141px;
-    height: 32px;
+    height: 26px;
     margin-top: 12px;
-    margin-left: 70px;
+    margin-left: 125px;
 
 
 }
@@ -70,6 +77,7 @@ justify-self: center;
     text-decoration: none;
     color:var(--color2);
     margin-left: 18px;
+    font-size: 14px;
 
 
 }
@@ -152,6 +160,7 @@ justify-self: center;
     text-decoration: none;
     color:var(--color);
     margin-left: 10px;
+    font-size: 14px;
     
 }
 
@@ -162,7 +171,8 @@ justify-self: center;
     margin-left: 108px;
     align-self: center;
     text-decoration: none;
-    color:var(--color)
+    color:var(--color);
+    font-size: 14px;
 }
 
 .eleven{
@@ -172,7 +182,8 @@ justify-self: center;
     margin-left: 168px;
     align-self: center;
     text-decoration: none;
-    color:var(--color)
+    color:var(--color);
+    font-size: 14px;
 }
 
 .logo-car{
@@ -212,17 +223,3 @@ justify-self: center;
 
 /*AQUI EMPIEZA LA SEGUNDA SECCION*/
 
-.second-section{
- display: grid;
-grid-template-columns: 10% 80% 10%;
-grid-template-rows: 70% 30%;
-
-}
-.publicity{
-    grid-column: 2;
-    grid-row: 1;
-    display: grid;
-    justify-self: center;
-    height: 400px;
-    width: 1550px;
-}

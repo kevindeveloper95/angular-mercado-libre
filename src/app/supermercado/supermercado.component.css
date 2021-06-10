@@ -55,7 +55,6 @@ padding: 50px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20% ;
     grid-template-rows: 15% 85%;
-    background-color:whitesmoke;
     max-width: 1100px;
     max-height: 400px;
     margin: auto;
@@ -144,6 +143,8 @@ margin-left: 10px;
 color: #666;
 }
 
+
+
 .sub-title{
     grid-column: 3/5;
     grid-row: 1;
@@ -156,22 +157,40 @@ color: #666;
 
 }
 
+.sub-title-1{
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-top: 15px;
+    justify-self:center;
+    align-self:center;
+    margin-right: 50px;
+    text-decoration: none;
+    color:var(--color1);
+
+}
+
 .five-section{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(25, 1fr);
     margin-top: 100px;
     margin-bottom: 100px;
+    
+    
+    
     
 
 }
 
 .container-publicity{
-   margin: auto;
    background-color: white;
    max-height: 290px;
    border-radius: 10px;
    margin-top: 20px;
+   margin-left: 325px;
+  
+   
+   
+   
 }
 
 .container-publicity,.img-publicity{
@@ -181,7 +200,6 @@ color: #666;
 }
 
 .container-publicity2{
-    margin: auto;
     background-color: white;
     max-height: 290px;
     border-radius: 10px;
@@ -193,28 +211,27 @@ color: #666;
 }
 
 .container-publicity3{
-    margin: auto;
     background-color: white;
    max-height: 290px;
    border-radius: 10px;
    margin-top: 20px;
  }
 
-.container-publicity2,.img-publicity2{
-    grid-column: 5/9;
+.container-publicity3,.img-publicity2{
+    grid-column: 8/9;
 }
 
 .h2-container{
   grid-row: 2;
   text-align: center;
   margin-top: 5px;
-  
   align-self: center;
 }
 
 .img-publicity2{
-    width: 400px;
+    width: 345px;
     height: 250px;
     
    
 }
+

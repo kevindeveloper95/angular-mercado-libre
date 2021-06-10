@@ -1,0 +1,422 @@
+.full-section{
+    max-width: 1200px;
+    min-height: 3000px;
+    background-color: red;
+    margin: auto;
+}  
+
+
+
+
+
+.first-section-product{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    max-width: 1200px;
+    max-height:1000px;
+    background-color: white;
+    margin: auto;
+}
+
+.container-pictures{
+    grid-column: 1/8;
+}
+
+.first-image-product{
+width: 300px;
+height: 350px;
+position: relative;
+left: 132px;
+top: 57px;
+}
+
+.second-image-product{
+width: 50px;
+height: 50px;
+position: relative;
+right: 282px;
+bottom:284px;
+border-radius: 5px;
+border: solid 1px black;
+}
+
+.third-image-product{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 332px;
+    bottom: 220px;
+    border-radius: 5px;
+    border: solid 1px black; 
+}
+
+.fourth-image-product{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    bottom: 210px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+
+
+.container-description-product{
+    grid-column: 9/14 ;
+    margin-top: 32px;
+    margin-left: 25px;
+    width: 353px;
+    
+}
+
+.title-product{
+    width: 300px;
+}
+
+.price-product{
+    width: 200px;
+    font-size: 37px;
+}
+
+.span-p{
+    font-size: 18px;
+}
+
+
+
+.container-buy-producto{
+    grid-column: 15/19 ;
+    margin-top: 20px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 825px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.mercado-picture{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    right: 4px;
+    top: 4px;
+    
+}
+
+.mercado-store{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    right: 4px;
+    top: 4px;
+}
+
+.price{
+    margin-top: -55px;
+}
+
+.a-product{
+    text-decoration: none;
+    color: #3483fa;
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+.a2-product{
+    text-decoration: none;
+    color: #3483fa;
+    font-size: 14px;
+    margin-left: 0px;
+    padding-top: 10px;
+}
+
+.p-product{
+ font-size: 14px;
+ color: #999;
+ width: 248px;
+ margin-left: 26px;
+
+
+}
+
+.p2-product{
+ font-size: 13px;
+ margin-top: 20px;
+}
+
+.list-p{
+    margin-top: 10px;
+}
+
+.shipping-product{
+    color: #00a650;
+    font-size: 16px;
+    text-decoration: none;
+    width: 264px;
+}
+
+
+
+button,a{
+    width: 264px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 8px;
+
+    
+    
+    
+    }
+
+
+.button-ingresar{
+    background-color: #3483fa;
+    border: 1px solid #3483fa;
+    border-radius: 6px;
+}
+
+.button-ingresar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 7px;
+
+}
+
+.second-button-ingresar{
+    background-color: white;
+    border-radius: 6px ;
+    border: 1px solid white;
+}
+
+.second-button-ingresar:hover{
+    background-color: lightblue ;
+}
+
+.second-button-ingresar > a{
+    color: #3483fa;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 7px;
+   
+}
+
+
+.container-Shipping-producto{
+    background-color: white;
+    width: 265px;
+    height: 96px;
+    margin-left: 8px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+}
+
+.mercado-truck{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    left: 12px;
+    bottom: 83px;
+    background-color: #00a650 ;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.p-mercado{
+    font-size: 13px;
+    width: 200px;
+    padding-left: 55px;
+    padding-top: 11px;
+}
+
+.p-mercado>strong{
+    font-size: 16px;
+    color: #00a650;
+    font-weight: bolder;
+}
+
+.icons-1{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 114px;
+    bottom: 15px;
+}
+
+.icons-2{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 68px;
+    bottom: 30px
+}
+
+.icons-3{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 114px;
+    bottom: 15px;
+}
+
+.icons-4{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 242px;
+    bottom: -4px;
+}
+
+
+
+
+.second-section-product{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1200px;
+    max-height:1000px;
+    background-color: white;
+    margin: auto;
+    margin-top: -105px;
+}
+
+
+.first-container-product{
+    grid-column: 1/13;
+    margin-left: 50px;
+}
+
+.description-product{
+    
+}
+
+.description-product-2{
+    
+}
+
+.a-description{
+    text-decoration: none;
+    color: #3483fa;
+}
+
+.description-first{
+    line-height: 27px;
+    width: 615px;
+}
+
+.second-container-product{
+    grid-column: 15/19;
+    border: solid 1px #999;
+    width: 289px;
+    height: 524px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.buying{
+list-style: none;
+font-size: 23px;
+line-height: 42px;
+}
+
+.days-buying{
+width: 104px;
+font-size: 12px;
+margin-left: -5px;
+border-right: solid 1px black;
+text-align: center;
+}
+
+.attention{
+    width: 71px;
+    font-size: 12px;
+    margin-left: 16px;
+    border-right: solid 1px black;
+    position: relative;
+    left: 87px;
+    top: -81px;
+    text-align: center; 
+}
+
+.time{
+    width: 66px;
+    font-size: 12px;
+    margin-left: 13px;
+    position: relative;
+    left: 180px;
+    top: -164px;
+    text-align: center;  
+}
+
+.image-buy{
+    width: 27px;
+    height: 24px;
+}
+
+.third-container-product{
+    grid-column: 15/19;
+    margin-top: -122px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 47px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.fourth-container-product{
+    grid-column: 15/19;
+    margin-top: -49px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 364px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.five-container-product{
+    grid-column: 15/19;
+    margin-top: -1px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 364px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.six-container-product{
+    grid-column: 15/19;
+    margin-top: -1px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.seven-container-product{
+    grid-column: 15/19;
+    margin-top: 20px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 271px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
