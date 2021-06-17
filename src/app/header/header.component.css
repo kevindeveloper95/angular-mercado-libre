@@ -20,7 +20,7 @@ margin-left: 125px;
 }
 
 .first-input{
-    display: grid;
+    display: none;
     grid-column: 3;
     grid-row: 1;
     width: 600px;

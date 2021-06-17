@@ -5,7 +5,7 @@
     background-color: white;
     border: 2px solid gainsboro;
     max-width: 1100px;
-    min-height: 150px;
+    max-height: 103px;
     margin: auto;
     margin-top: 36px;
     
@@ -235,3 +235,55 @@ color: #666;
    
 }
 
+
+
+@media (max-width: 1440px){
+
+.five-section{
+    margin-left: -198px;
+    grid-gap: 12px;
+}
+
+
+}
+
+@media (max-width: 1024px){
+
+#deodorant{
+    display: none;
+}
+
+.four-section{
+    margin-left: 31px;
+    min-width: 1205px;
+}
+
+.container > img{
+    width: 224px;
+    height: 210px;
+}
+
+.container{
+    width: 224px;
+}
+
+.img-publicity2{
+    width: 300px;
+}
+
+.five-section{
+    margin-left: -330px;
+}
+
+#jam{
+    display: none;
+}
+
+
+
+
+
+
+
+
+}

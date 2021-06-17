@@ -5,7 +5,7 @@
     background-color: white;
     min-height: 170px;
     margin: auto;
-    margin-right: 120px;
+    
 }
 
 .list-header {
@@ -285,5 +285,117 @@ justify-content: center ;
         
     }
 
+
+
+    @media (max-width: 1440px){
+
+.header{
+    width: 1571px;
+    margin-left: -139px;
+}
+
+
+
+
+
+    }
+
+
+    @media (max-width: 1024px){
+.header{
+    width: 1188px;
+    margin-left: -171px;
+}
+
+.list-header{
+   display: none;
+}
+
+.ofertas{
+    display: none;
+}
+
+.four-section{
+    margin-left: -302px;
+}
+
+.container-img{
+    width: 0px;
+    margin-left: 166px;
+}
   
 
+    }
+
+
+    @media (max-width: 768px){
+
+    .header{
+        width: 893px;
+    }
+
+     #headphones{
+         display: none;
+     }
+
+     #money{
+         display: none;
+     }
+
+     .header{
+        margin-left: -131px;
+     }
+
+
+     .container-3{
+        display: none;
+     }
+
+     .four-section{
+        margin-left: -427px;
+     }
+
+
+    }
+
+
+    @media (max-width: 425px){
+
+   #market{
+       display: none;
+   }
+
+   #videogame{
+       display: none;
+   }
+
+   .header{
+    
+   }
+
+   .second-image{
+       
+   }
+
+   .three-image{
+    
+   }
+
+   .container-2{
+  display: none;
+    
+   }
+
+   
+
+   .four-section{
+    margin-left: -340px;
+   }
+
+   .container-1{
+    
+     }
+
+
+
+    }
