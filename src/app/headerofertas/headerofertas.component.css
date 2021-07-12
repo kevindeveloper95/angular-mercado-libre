@@ -12,7 +12,7 @@
     grid-column: 5/6;
     min-width: 350px;
     min-height: 100px;
-    margin-left: 180px;
+    margin-left: 125px;
     align-self: end;
     
 }
@@ -290,10 +290,23 @@ justify-content: center ;
     @media (max-width: 1440px){
 
 .header{
-    width: 1571px;
-    margin-left: -139px;
+    width: 1425px;
+    margin-left: -1px;
 }
 
+.list-header{
+    min-width: 282px;
+    margin-left: -47px;
+}
+
+.container-img{
+    width: 201px;
+    margin-left: -25px;
+}
+
+.header img{
+    width: 232px;
+}
 
 
 
@@ -303,8 +316,9 @@ justify-content: center ;
 
     @media (max-width: 1024px){
 .header{
-    width: 1188px;
-    margin-left: -171px;
+    width: 1008px;
+    margin-left: 0px;
+    
 }
 
 .list-header{
@@ -320,8 +334,12 @@ justify-content: center ;
 }
 
 .container-img{
-    width: 0px;
-    margin-left: 166px;
+    width: -1px;
+    margin-left: -32px;
+}
+
+.header img{
+    width: 183px;
 }
   
 
@@ -330,8 +348,9 @@ justify-content: center ;
 
     @media (max-width: 768px){
 
-    .header{
-        width: 893px;
+    #header-ofert{
+        margin-left: 0px;
+        width: 752px;
     }
 
      #headphones{
@@ -355,6 +374,10 @@ justify-content: center ;
         margin-left: -427px;
      }
 
+     .container-img{
+        margin-left: -14px;
+     }
+
 
     }
 
@@ -369,33 +392,41 @@ justify-content: center ;
        display: none;
    }
 
-   .header{
+   #header-ofert{
+    width: 409px;
+    margin-left: -4px;
     
    }
 
-   .second-image{
-       
-   }
-
-   .three-image{
-    
-   }
 
    .container-2{
   display: none;
     
    }
 
-   
-
    .four-section{
     margin-left: -340px;
    }
 
-   .container-1{
+   .container-img{
+    margin-left: -8px;
     
-     }
-
-
+   }
 
     }
+
+@media (max-width: 375px){
+    
+.four-section{
+    margin-left: -292px;
+}
+
+#header-ofert{
+    width: 371px;
+}
+
+
+
+}
+
+  

@@ -7,7 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+
+let formulario = document.querySelector('.first-input');
+let mandar = document.querySelector('.submit');
+
+let filtrar = ()=>{
+  console.log(formulario);
+}
+
+mandar?.addEventListener('click', filtrar)
+
+
+  }
 
   ngOnInit(): void {
   }

@@ -128,3 +128,63 @@
     margin-left: 10px;
     
 }
+
+@media (max-width: 1440px){
+
+    .h2-account{
+        left: 311px;
+    }
+
+    .a-account{
+        left: 884px;
+    }
+     
+}
+
+@media (max-width: 1024px){
+
+    .h2-account{
+        left: 105px;
+    }
+
+    .a-account{
+        left: 670px
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+
+    .h2-account{
+        left: 0px;
+    }
+
+    .a-account{
+        left: 520px;
+    }
+
+}
+
+
+@media (max-width: 425px){
+
+    .h2-account{
+        left: 0px;
+    }
+
+    .a-account{
+        left: 0px;
+        top: 75px;
+    }
+
+    .input-form{
+        width: 126px;
+    }
+
+    .a-checkbox{
+        width: 316px;
+    }
+
+}

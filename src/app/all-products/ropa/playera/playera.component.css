@@ -1,0 +1,1280 @@
+.full-section{
+    max-width: 1200px;
+    min-height: 3000px;
+    background-color: white;
+    margin: auto;
+}  
+
+
+.first-container-header{
+    margin-left: 100px;
+    position: relative;
+    top: 35px;
+    left: 240px;
+}
+
+.promotions-header > a{
+  
+  font-size: 14px;
+  color: black;
+}
+
+.promotions-header{
+    text-indent: 8px;
+}
+
+#p2-product-1{
+    margin-left: -4px;
+}
+
+
+
+
+
+.to-share a{
+    position: relative;
+    left: 1333px;
+    top: 1px;
+    font-size: 14px;
+    color: #3483fa;
+}
+
+.accessories{
+    color: #3483fa;
+    font-size: 14px;
+}
+
+.list{
+    color: black;
+    font-size: 14px;
+    
+
+}
+
+
+
+
+
+.first-section-product{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    max-width: 1200px;
+    max-height:1000px;
+    background-color: white;
+    margin: auto;
+}
+
+.container-pictures{
+    grid-column: 1/8;
+}
+
+.first-image-product{
+width: 300px;
+height: 350px;
+position: relative;
+left: 132px;
+top: 57px;
+}
+
+.second-image-product{
+width: 50px;
+height: 50px;
+position: relative;
+right: 282px;
+bottom:284px;
+border-radius: 5px;
+border: solid 1px black;
+}
+
+.third-image-product{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 332px;
+    bottom: 220px;
+    border-radius: 5px;
+    border: solid 1px black; 
+}
+
+.fourth-image-product{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    bottom: 210px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+
+
+.container-description-product{
+    grid-column: 9/14 ;
+    margin-top: 32px;
+    margin-left: 25px;
+    width: 353px;
+    
+}
+
+.title-product{
+    width: 359px;
+    font-size: 22px;
+}
+
+.price-product{
+    width: 200px;
+    font-size: 37px;
+    margin-bottom: -35px;
+}
+
+.price-promotion{
+    margin-bottom: 4px;
+}
+
+.you-now{
+    margin-top: 40px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.span-p{
+    font-size: 18px;
+}
+
+
+
+.container-buy-producto{
+    grid-column: 15/19 ;
+    margin-top: 20px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 825px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+}
+
+.mercado-picture{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    
+    top: 4px;
+    
+}
+
+.mercado-store{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    right: 130px;
+    top: 39px;
+}
+
+.mercado-lightning{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    right: -1px;
+    top: 5px;
+}
+
+.price{
+    margin-top: -55px;
+}
+
+.a-product{
+    text-decoration: none;
+    color: #3483fa;
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+
+
+
+.a2-product{
+    text-decoration: none;
+    color: #3483fa;
+    font-size: 14px;
+    margin-left: 0px;
+    padding-top: 10px;
+    line-height: 83px;
+}
+
+.p-product{
+ font-size: 14px;
+ color: #999;
+ width: 248px;
+ margin-left: 1px;
+
+
+}
+
+.mercado{
+    width: 26px;
+    height: 15px;
+    margin-right: -7px;
+    position: relative;
+    top: 32px;
+    left: -1px;
+    
+}
+
+.logo-mercado{
+    background: black;
+    color: white;
+    padding: 4px;
+    font-size: 12px;    
+    padding-left: 24px;
+    font-weight: 700;
+
+}
+
+.smartphone{
+    font-size: 12px;
+    color: #999;
+    font-weight: bolder;
+}
+
+.p1-product{
+    font-size: 14px;
+    color: #999;
+    width: 248px;
+    margin-top: 19px;
+    margin-left: 27px;
+}
+
+.a1-product{
+    text-decoration: none;
+    color: #3483fa;
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+.p2-product{
+ font-size: 13px;
+ margin-top: 20px;
+}
+
+.list-p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-indent: -19px;
+}
+
+
+/* SECCION RECICLADA DE */
+
+.four-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15% 85%;
+    max-width: 782px;
+    max-height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 45px;
+}
+
+.container{
+    background-color: white;
+    width:250px;
+    height: 400px;
+    grid-row: 2;
+    justify-self:start;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 50%);
+  
+    
+}
+
+a,h3,h5,p{
+    text-decoration: none;
+}
+
+.container img{
+    width: 214px;
+    height: 252px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.container {
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 243px;
+    height: 422px;
+    
+}
+.price{
+    color:rgba(0,0,0,.8);
+    font-size:24px;
+    text-decoration:none;
+    margin-top: 12px;
+    margin-left: 17px;
+    margin-bottom: -16px;
+    }
+
+    .promotion{
+        color:#00a650;
+        font-size: 14px;
+        margin-left: 17px;
+        margin-bottom: 5px;
+        
+    }
+
+    .travel{
+        color:#00a650;
+        font-size: 14px;
+        text-decoration: none;
+        margin-left: 17px;
+    }
+
+    .description{
+        font-size: 14px;
+        margin-left: 17px;
+        
+    }
+
+    .container .third-image{
+        width:29px;
+        height:23px
+
+    }
+
+
+.first-title{
+grid-column: 1/4;
+grid-row: 1;
+justify-self:start;
+align-self:center;
+margin-left: 10px;
+color: #666;
+margin-bottom: 57px;
+border-top: 1px solid #999;
+padding-top: 45px;
+width: 776px;
+}
+
+
+
+
+
+.shipping-product{
+    color: #00a650;
+    font-size: 16px;
+    text-decoration: none;
+    width: 264px;
+    font-size: 15px;
+    margin-left: 27px;
+}
+
+.shipping-product-1{
+    color: #00a650;
+    font-size: 16px;
+    text-decoration: none;
+    width: 264px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+
+button,a{
+    width: 264px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 8px;
+
+    
+    
+    
+    }
+
+
+.button-ingresar{
+    background-color: #3483fa;
+    border: 1px solid #3483fa;
+    border-radius: 6px;
+}
+
+.button-ingresar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 7px;
+
+}
+
+.second-button-ingresar{
+    background-color: white;
+    border-radius: 6px ;
+    border: 1px solid white;
+}
+
+.second-button-ingresar:hover{
+    background-color: lightblue ;
+}
+
+.second-button-ingresar > a{
+    color: #3483fa;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 7px;
+   
+}
+
+
+.container-Shipping-producto{
+    background-color: white;
+    width: 265px;
+    height: 96px;
+    margin-left: 8px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+}
+
+.mercado-truck{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    left: 12px;
+    bottom: 83px;
+    background-color: #00a650 ;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.p-mercado{
+    font-size: 13px;
+    width: 200px;
+    padding-left: 55px;
+    padding-top: 11px;
+}
+
+.p-mercado>strong{
+    font-size: 16px;
+    color: #00a650;
+    font-weight: bolder;
+}
+
+.icons-1{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 114px;
+    bottom: 15px;
+}
+
+.icons-2{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 68px;
+    bottom: 30px
+}
+
+.icons-3{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 114px;
+    bottom: 15px;
+}
+
+.icons-4{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    right: 241px;
+    bottom: -4px;
+}
+
+
+
+
+.second-section-product{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1200px;
+    max-height:1000px;
+    background-color: white;
+    margin: auto;
+    
+}
+
+
+.first-container-product{
+    grid-column: 1/13;
+    margin-left: 50px;
+    margin-top: -103px;
+    
+}
+
+.description-product{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.description-product-2{
+    position: relative;
+    top: -183px;
+    left: 423px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.a-description{
+    text-decoration: none;
+    color: #3483fa;
+    margin-top: -163px;
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 51px;
+    width: 781px;
+}
+
+.product-description-title{
+    margin-top: 68px;
+    font-size: 25px;
+    margin-bottom: 31px;
+   
+}
+
+.description-first{
+    line-height: 35px;
+    font-size: 20px;
+    width: 758px;
+    margin-top: 78px;
+}
+
+.characteristic{
+    font-size: 22px;
+    margin-top: 156px;
+    border-top: 1px solid gainsboro;
+    padding-top: 47px;
+    width: 780px;
+}
+
+
+
+.second-container-product{
+    grid-column: 15/19;
+    border: solid 1px #999;
+    width: 289px;
+    height: 361px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: -703px;
+}
+
+.ag-web-img{
+    width: 40px;
+    height: 37px;
+    position: relative;
+    top: 53px;
+    left: 0px;
+}
+
+.ag{
+    color: black;
+}
+
+.ag-web-p{
+    font-size: 14px;
+    margin-left: 52px;
+    margin-bottom: -12px;
+    color: #999;
+}
+
+
+.h4-ag-web{
+    margin-top: 0px;
+    margin-left: 4px;
+    font-size: 18px;
+    margin-bottom: -26px;
+}
+
+.p-mercado-lider{
+    font-size: 14px;
+    color: #999;
+    margin-left: 39px;
+    margin-bottom: -25px;
+
+}
+
+.strong-mercado-lider{
+    color: #00a650;
+    font-size: 14px;
+    
+
+}
+
+.medalla{
+    width: 28px;
+    height: 27px;
+    position: relative;
+    left: 2px;
+    top: 44px;
+}
+
+.color-1{
+background-color: #fff0f0;
+width: 48px;
+height: 9px;
+position: relative;
+top: 35px;
+left: -37px;
+}
+
+.color-2{
+background-color: #fff5e8;
+width: 48px;
+height: 9px;
+position: relative;
+top: 26px;
+left: 17px;
+}
+
+.color-3{
+background-color: #fffcda;
+width: 48px;
+height: 9px;
+position: relative;
+top: 17px;
+left: 71px;
+}
+
+.color-4{
+background-color: #f1fdd7;
+width: 48px;
+height: 9px;
+position: relative;
+top: 8px;
+left: 126px;
+}
+
+.color-5{
+background-color: #39b54a;
+width: 48px;
+height: 13px;
+position: relative;
+top: -3px;
+left: 181px;
+}
+
+
+.buying{
+list-style: none;
+font-size: 23px;
+line-height: 42px;
+}
+
+.days-buying{
+width: 104px;
+font-size: 12px;
+margin-left: -5px;
+border-right: solid 1px black;
+text-align: center;
+}
+
+.attention{
+    width: 71px;
+    font-size: 12px;
+    margin-left: 16px;
+    border-right: solid 1px black;
+    position: relative;
+    left: 87px;
+    top: -81px;
+    text-align: center; 
+}
+
+.time{
+    width: 66px;
+    font-size: 12px;
+    margin-left: 13px;
+    position: relative;
+    left: 180px;
+    top: -164px;
+    text-align: center;  
+}
+
+.image-buy{
+    width: 27px;
+    height: 24px;
+}
+
+.ver-mas{
+    position: relative;
+    top: -138px;
+    left: -3px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #3483fa;
+}
+
+.third-container-product{
+    grid-column: 15/19;
+    margin-top: -284px;;
+    border: solid 1px #999;
+    width: 289px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: -1228px;
+}
+
+.fourth-container-product{
+    grid-column: 15/19;
+    margin-top: -233px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 282px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: -1177px;
+}
+
+
+.five-container-product{
+    grid-column: 15/19;
+    margin-top: -1px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 282px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: -894px;
+}
+
+.h5-price{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 15px;
+    }
+    
+    .best-price{
+    font-size: 12px;
+    background-color: gainsboro;
+    margin-left: 109px;
+    }
+
+    #the-best-price{
+        position: relative;
+        left: 47px;
+
+    }
+    
+
+ .list-mercado-1{
+    font-size: 13px;
+    list-style: none;
+    color: #39b54a;
+    width: 208px;
+    line-height: 18px;
+    margin-top: -17px;
+ }  
+ 
+ .list-mercado-2{
+    font-size: 13px;
+    list-style: none;
+    color: #39b54a; 
+    width: 208px;
+    line-height: 18px;
+    margin-top: 6px;
+}   
+
+
+
+.information-buy{
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.a-information{
+text-decoration: none;
+color: #3483fa;
+}
+
+.sell{
+    margin-top: -7px;
+    font-size: 12px;
+    color: #999;
+}
+
+.button-comprar{
+    width: 137px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 0px;
+    background-color: #3483fa;
+    border: 1px solid #3483fa;
+    border-radius: 6px;
+}
+
+.button-comprar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 11px;
+    padding: 7px;
+    margin-right: 11px;
+
+}
+.second-button-comprar{
+    width: 125px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 6px ;
+    border: 1px solid white;
+
+}
+
+
+
+.second-button-comprar:hover{
+    background-color: lightblue ;
+}
+
+.second-button-comprar > a{
+    color: #3483fa;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 11px;
+    padding: 2px;
+    
+   
+}
+
+
+
+
+.six-container-product{
+    grid-column: 15/19;
+    margin-top: -1px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 17px;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: -586px;
+}
+
+.see-more{
+    text-decoration: none;
+    color: #3483fa;
+    text-align: center;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+.seven-container-product{
+    grid-column: 15/19;
+    margin-top: 25px;
+    border: solid 1px #999;
+    width: 289px;
+    height: 452px;
+    padding-left: 10px;
+    padding-top: 25px;
+    border-radius: 5px;
+    margin-left: 43px;
+    margin-top: -502px;
+}
+
+
+
+.title-pay{
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+.credit-card{
+    margin-top: 28px;
+    font-size: 16px;
+}
+
+.li-pay{
+    font-size: 12px;
+    margin-top: -11px;
+    color: #999;
+}
+
+.image-form-pay{
+    width: 55px;
+    height: 28px;
+    margin-left: 24px;
+    margin-top: -6px;
+    
+}
+
+.image-form-first{
+    width: 51px;
+    height: 23px;
+    margin-top: -6px;
+    
+}
+
+.p-monts{
+    font-size: 15px;
+}
+
+.mercado-compra{
+    height: 55px;
+    width: 102px;
+    margin-top: -25px;
+}
+
+.debit-card{
+    font-size: 15px;
+    color: rgba(0,0,0,.8);
+}
+
+.a-pay{
+    text-decoration: none;
+    color: #3483fa;
+    font-size: 13px;
+
+}
+
+.logo-description{
+    width: 46px;
+    height: 14px;
+   
+}
+
+@media (max-width: 1440px){
+
+    .first-container-header{
+        left: 4px;
+    }
+
+    .to-share a{
+        left: 1125px;
+    }
+
+
+
+
+}
+
+@media (max-width: 1024px){
+
+    .full-section{
+    min-width: 1179px;
+
+}
+
+.first-container-header{
+    left: -108px;
+
+}
+
+.to-share a{
+    left: 987px;
+}
+
+}
+
+@media (max-width: 768px){
+
+
+    .first-container-header{
+        left: -107px;
+        width: 883px;
+    
+    }
+
+
+
+
+}
+
+@media (max-width: 425px){
+
+.full-section{
+    height: 7000px;
+    min-width: 300px;
+    margin-left: 0px;
+
+}
+
+
+
+
+    .second-image-product  {
+        display: none;
+    }
+
+    .third-image-product{
+        display: none;
+    }
+
+    .fourth-image-product{
+        display: none;
+    }
+
+    .first-image-product{
+    left: 57px;
+    top: 295px;
+    }
+
+    .title-product{
+    font-size: 17px;
+    position: relative;
+    right: 179px;
+    width: 386px;
+    }
+
+    .new{
+        position: relative;
+        right: 179px;
+    }
+
+    #p-product-1{
+    position: relative;
+    right: 179px;
+    top: -42px;
+    }
+
+    .smartphone{
+   display: none;
+    }
+
+    .mercado{
+        display: none;
+    }
+
+    .price-promotion{
+    position: relative;
+    right: 179px;
+    top: 460px;
+    }
+
+    .price-product{
+    position: relative;
+    right: 179px;
+    top: 460px;
+}
+
+#a-product-1{
+    position: relative;
+    right: 179px;
+    top: 460px;
+}
+
+.container-buy-producto{
+    position: relative;
+    right: 327px;
+    top: 822px;
+    border: none;
+    width: 389px;
+
+}
+
+.p-product{
+    width: 276px
+}
+
+.shipping-product{
+    width: 311px;
+}
+
+.four-section{
+    margin-top: 2000px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-ingresar, .second-button-ingresar{
+    width: 364px;
+    margin: auto;
+}
+
+#p2-product-1{
+    margin-left: -3px;
+}
+
+.fourth-container-product{
+    position: relative;
+    right: 314px;
+    bottom: 1799px;
+    width: 360px;
+}
+
+.third-container-product{
+    position: relative;
+    right: 314px;
+    bottom: 1799px;
+    width: 360px;
+    text-align: center;
+}
+
+.six-container-product{
+    position: relative;
+    right: 314px;
+    bottom: 2107px;
+    width: 360px;
+    text-align: center;
+}
+
+.you-now{
+    position: relative;
+    right: 164px;
+    top: 1695px;
+}
+
+.p2-product{
+    position: relative;
+    right: 143px;
+    top: 1695px;
+}
+
+#p-hide{
+    display: none;
+}
+
+.list-mercado-2{
+    width: 345px;
+}
+
+.see-more{
+    margin-left: -19px;
+}
+
+.h4-ag-web{
+    margin-left: 0px;
+}
+
+.button-comprar{
+    width: 170px;
+}
+
+.second-button-comprar{
+    width: 170px;
+}
+
+.characteristic{
+    width: 383px;
+    position: relative;
+    bottom: 1025px;
+    right: 33px;
+}
+
+.description-product{
+    top: -1044px;
+    left: -47px;
+    width: 268px;
+
+
+}
+
+.description-product-2{
+    top: -1044px;
+    left: -47px;
+
+
+}
+
+.first-title{
+    padding-top: 55px;
+    margin-top: 115px;
+    width: 383px;
+    margin-left: -44px;
+    
+
+}
+
+#see-more{
+    position: relative;
+    bottom: 862px;
+    right: 37px;
+
+}
+
+.a-description{
+    border:none
+}
+
+.description-first{
+    width: 388px;
+    position: relative;
+    top: 1033px;
+    right: 37px;
+    font-size: 18px;
+}
+
+.product-description-title{
+    position: relative;
+    top: 1033px;
+    right: 37px;
+}
+
+.second-container-product{
+    position: relative;
+    top: 1827px;
+    right: 314px;
+    border: none;
+}
+
+.five-container-product{
+    display: none;
+}
+
+.seven-container-product{
+    position: relative;
+    right: 320px;
+    top: 1533px;
+    border: none;
+}
+
+.container{
+    margin-left: 41px;
+}
+
+.first-container-header{
+    display: none;
+}
+
+.to-share{
+    display: none;
+}
+
+.a2-product{
+    display: none;
+}
+
+.best-price{
+    margin-left: 181px;
+    background-color: gainsboro;
+}
+
+.p1-product{
+    margin-top: 23px;
+}
+
+
+
+}

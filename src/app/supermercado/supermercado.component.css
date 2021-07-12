@@ -72,8 +72,8 @@ padding: 50px;
 }
 
 .container img{
-    width:200px;
-    height:210px;
+    width: 185px;
+    height: 189px;
     border-bottom: 1px solid gainsboro;
 }
 
@@ -491,8 +491,36 @@ margin-left: 380px;
 
 }
 
+}
 
 
+@media (max-width: 375px){
 
+.four-section{
+    margin-left: 1px; 
+}
+
+.sub-title{
+    display: none;
+}
+
+.img-publicity2{
+    width: 339px;
+}
+
+.container-publicity2{
+    width: 340px;
+}
+
+.container-publicity{
+    width: 340px;
+}
+
+.container-publicity3{
+    width: 340px;
+}
 
 }
+
+
+

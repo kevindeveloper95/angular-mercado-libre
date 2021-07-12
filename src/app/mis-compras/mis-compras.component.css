@@ -1,0 +1,91 @@
+.section-ingresar{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    max-width: 420px;
+    max-height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    font-family: var(--font);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    
+}
+
+.container-ingresar, p {
+    grid-column: 4/10;
+    width: 316px;
+    
+}
+
+.p1-ingresar{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.input-ingresar{
+    height: 45px;
+    width: 275px;
+    border-radius: 5px;
+}
+
+.container-ingresar button,a{
+width: 283px;
+height: 50px;
+margin-top: 20px;
+
+
+
+}
+
+.button-ingresar{
+    background-color: #3483fa;
+    border: 1px solid #3483fa;
+    border-radius: 6px;
+}
+
+.button-ingresar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 7px;
+
+}
+
+.second-button-ingresar{
+    background-color: white;
+    border-radius: 6px ;
+    border: 1px solid white;
+}
+
+.second-button-ingresar:hover{
+    background-color: lightblue ;
+}
+
+.second-button-ingresar > a{
+    color: #3483fa;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 7px;
+   
+}
+
+.privacity{
+margin: auto;
+max-height: 400px; 
+margin-top: 75px;
+font-size: 12px;
+padding-left: 35px;
+margin-bottom: 110px;
+ 
+
+}
+
+.privacity >a{
+    text-decoration: none;
+    color: #3483fa;
+   
+}

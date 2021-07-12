@@ -6,6 +6,51 @@
 }  
 
 
+.first-container-header{
+    margin-left: 100px;
+    position: relative;
+    top: 35px;
+    left: 240px;
+}
+
+.promotions-header > a{
+  
+  font-size: 14px;
+  color: black;
+}
+
+.promotions-header{
+    text-indent: 8px;
+}
+
+#p2-product-1{
+    margin-left: -4px;
+}
+
+
+
+
+.to-share a{
+    position: relative;
+    left: 1333px;
+    top: 1px;
+    font-size: 14px;
+    color: #3483fa;
+}
+
+.accessories{
+    color: #3483fa;
+    font-size: 14px;
+}
+
+.list{
+    color: black;
+    font-size: 14px;
+    
+
+}
+
+
 
 
 
@@ -198,7 +243,7 @@ border: solid 1px black;
     font-size: 14px;
     color: #999;
     width: 248px;
-    margin-left: 1px;
+    margin-top: 19px;
     margin-left: 27px;
 }
 
@@ -219,6 +264,7 @@ border: solid 1px black;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
+    text-indent: -19px;
 }
 
 
@@ -726,8 +772,14 @@ text-align: center;
     
     .best-price{
     font-size: 12px;
-    background-color: #999;
+    background-color: gainsboro;
     margin-left: 109px;
+    }
+
+    #the-best-price{
+        position: relative;
+        left: 47px;
+
     }
     
 
@@ -902,5 +954,415 @@ color: #3483fa;
     text-decoration: none;
     color: #3483fa;
     font-size: 13px;
+
+}
+
+.logo-description{
+    width: 46px;
+    height: 14px;
+   
+}
+
+@media (max-width: 1440px){
+
+    .first-container-header{
+        left: 4px;
+    }
+
+    .to-share a{
+        left: 1125px;
+    }
+
+
+
+
+}
+
+@media (max-width: 1024px){
+
+    .full-section{
+    min-width: 1179px;
+
+}
+
+.first-container-header{
+    left: -108px;
+
+}
+
+.to-share a{
+    left: 987px;
+}
+
+}
+
+@media (max-width: 768px){
+
+
+    .first-container-header{
+        left: -107px;
+        width: 883px;
+    
+    }
+
+
+
+
+}
+
+@media (max-width: 425px){
+
+.full-section{
+    height: 7000px;
+    min-width: 425px;
+    margin-left: -4px;
+}
+    
+
+
+
+.first-section-product{
+    
+    min-width: 400px;
+}
+
+.description-product-2{
+    width: 227px;
+}
+
+#a-1{
+ display: none;
+}
+
+
+S
+    .second-image-product  {
+        display: none;
+    }
+
+    .third-image-product{
+        display: none;
+    }
+
+    .fourth-image-product{
+        display: none;
+    }
+
+    .first-image-product{
+    left: 57px;
+    top: 295px;
+    }
+
+    .title-product{
+    font-size: 17px;
+    position: relative;
+    right: 179px;
+    width: 386px;
+    }
+
+    .new{
+        position: relative;
+        right: 179px;
+    }
+
+    #p-product-1{
+    position: relative;
+    right: 179px;
+    top: -42px;
+    }
+
+    .smartphone{
+   display: none;
+    }
+
+    .mercado{
+        display: none;
+    }
+
+    .price-promotion{
+    position: relative;
+    right: 179px;
+    top: 460px;
+    }
+
+    .price-product{
+    position: relative;
+    right: 179px;
+    top: 460px;
+}
+
+#a-product-1{
+    position: relative;
+    right: 179px;
+    top: 460px;
+}
+
+.container-buy-producto{
+    position: relative;
+    right: 327px;
+    top: 822px;
+    border: none;
+    min-width: 410px;
+
+}
+
+.p-product{
+    width: 276px
+}
+
+.shipping-product{
+    width: 311px;
+}
+
+.four-section{
+    margin-top: 2000px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-ingresar, .second-button-ingresar{
+    width: 364px;
+    margin: auto;
+}
+
+#p2-product-1{
+    margin-left: -3px;
+}
+
+.fourth-container-product{
+    position: relative;
+    right: 314px;
+    bottom: 1799px;
+    width: 360px;
+}
+
+.third-container-product{
+    position: relative;
+    right: 314px;
+    bottom: 1799px;
+    width: 360px;
+    text-align: center;
+}
+
+.six-container-product{
+    position: relative;
+    right: 314px;
+    bottom: 2107px;
+    width: 360px;
+    text-align: center;
+}
+
+.you-now{
+    position: relative;
+    right: 164px;
+    top: 1695px;
+}
+
+.p2-product{
+    position: relative;
+    right: 143px;
+    top: 1695px;
+}
+
+#p-hide{
+    display: none;
+}
+
+.list-mercado-2{
+    width: 345px;
+}
+
+.see-more{
+    margin-left: -19px;
+}
+
+.h4-ag-web{
+    margin-left: 0px;
+}
+
+.button-comprar{
+    width: 170px;
+}
+
+.second-button-comprar{
+    width: 170px;
+}
+
+.characteristic{
+    width: 383px;
+    position: relative;
+    bottom: 1025px;
+    right: 33px;
+}
+
+.description-product{
+    top: -1044px;
+    left: -47px;
+    width: 268px;
+
+
+}
+
+.description-product-2{
+    top: -1044px;
+    left: -47px;
+
+
+}
+
+.first-title{
+    padding-top: 55px;
+    margin-top: 115px;
+    width: 383px;
+    margin-left: -44px;
+    
+
+}
+
+#see-more{
+    position: relative;
+    bottom: 862px;
+    right: 37px;
+
+}
+
+.a-description{
+    border:none
+}
+
+.description-first{
+    width: 388px;
+    position: relative;
+    top: 1033px;
+    right: 37px;
+    font-size: 18px;
+}
+
+.product-description-title{
+    position: relative;
+    top: 1033px;
+    right: 37px;
+}
+
+.second-container-product{
+    position: relative;
+    top: 1827px;
+    right: 314px;
+    border: none;
+}
+
+.five-container-product{
+    display: none;
+}
+
+.seven-container-product{
+    position: relative;
+    right: 320px;
+    top: 1533px;
+    border: none;
+}
+
+.container{
+    margin-left: 41px;
+}
+
+.first-container-header{
+    display: none;
+}
+
+.to-share{
+    display: none;
+}
+
+.a2-product{
+    display: none;
+}
+
+.best-price{
+    margin-left: 181px;
+    background-color: gainsboro;
+}
+
+.p1-product{
+    margin-top: 23px;
+}
+
+}
+
+@media (max-width: 375px){
+
+.title-product{
+     width: 353px;
+     }
+
+     .first-image-product{
+        left: 35px;
+     }
+
+.button-ingresar{
+    width: 343px;
+}
+
+.second-button-ingresar{
+    width: 343px;
+}
+
+.container-buy-producto{
+    right: 338px;
+}
+
+.third-container-product{
+    width: 324px;
+    right: 324px;
+}
+
+.fourth-container-product{
+    width: 324px;
+    right: 324px;  
+}
+
+.six-container-product{
+    width: 324px;
+    right: 324px;
+}
+
+.button-comprar{
+    width: 143px;
+}
+
+.list-mercado-2{
+    width: 287px;
+}
+
+.p2-product{
+    width: 320px;
+}
+
+.characteristic{
+    width: 351px;
+}
+
+.four-section{
+    margin-left: 23px;
+}
+
+.description-first{
+    width: 342px;
+
+}
+
+.third-container-product{
+    bottom: 1878px;
+}
+
+.fourth-container-product{
+    bottom: 1878px
+}
+
+.six-container-product{
+    bottom: 2186px;
+}
+
 
 }

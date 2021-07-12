@@ -1,0 +1,30 @@
+.history-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.record{
+    margin-left: 360px;
+    font-size: 26px;
+    
+}
+
+.manage{
+    margin-left: 961px;
+    color: #3483fa;
+    font-size: 16px;
+    
+
+}
+
+.discovery{
+    margin-top: 200px;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    font-size: 20px;
+    margin-bottom: 340px;
+    
+    
+}
