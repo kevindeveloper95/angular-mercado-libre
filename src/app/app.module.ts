@@ -49,6 +49,10 @@ import { PerfumeModule } from './all-products/salud-belleza/perfume/perfume.modu
 import { PcGamerModule } from './all-products/computadoras/pc-gamer/pc-gamer.module';
 import { TaladroComponent } from './all-products/herramientas/taladro/taladro.component';
 import { TaladroModule } from './all-products/herramientas/taladro/taladro.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ErrorTailorModule } from '@ngneat/error-tailor';
+
+
 
 
 
@@ -110,8 +114,20 @@ import { TaladroModule } from './all-products/herramientas/taladro/taladro.modul
     PerfumeModule,
     PcGamerModule,
     TaladroModule,
+    ReactiveFormsModule,
+    ErrorTailorModule.forRoot({
+        errors: {
+          useValue: {
+            required: 'El campo es requerido',
+            minlength: ({ requiredLength, actualLength }) => 
+                        `Expect ${requiredLength} but got ${actualLength}`,
+            invalidAddress: error => `Address isn't valid`
+          }
+        }
+      })
+    ],
     
-  ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

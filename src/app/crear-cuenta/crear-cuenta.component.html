@@ -4,27 +4,34 @@
 <a  class="a-account" href="">Crear una cuenta de empresa ></a>
 </div>
 
+<form [formGroup]="form" novalidate (ngSubmit)="save($event)" errorTailor>
 <section class="create-account">
         <div class="container-nombre">
         <p>Nombre</p>
-        <input class="input-form"type="text" name="name" >
+        <input class="input-form"type="text" formControlName="name" >
     </div>
-    <div  class="container-apellido">
+
+    <div class="container-apellido">
         <p>Apellido</p>
-        <input class="input-form" type="text" name="name" >
+        <input class="input-form" type="text" formControlName="Apellido" >    
     </div>
+    
     <div  class="container-email">
         <p>Email</p>
-        <input class="input-form" type="text" name="name" >
+        <input class="input-form" type="email"  formControlName="email" >
+        
     </div>
+   
     <div  class="container-clave">
         <p>Clave</p>
-        <input class="input-form" type="text" name="name" >
+        <input class="input-form" type="text"  formControlName="Clave" >
     </div>
     
     <div  class="container-checkbox">
         <p class="a-checkbox">Declaro que soy mayor de edad, acepto los <a href="">terminos y condiciones</a> y autorizo el uso de mis datos de acuerdo al acuerdo a la <a href="">Declaracion de privacidad</a></p>
-        <input class="checkbox" type="checkbox" name="checkbox">
-        
+        <input class="checkbox" type="checkbox" formControlName="checkbox">
     </div>
+    
+    <button class="submit" type="submit" [disabled]="form.invalid">Save</button>
 </section>
+</form>

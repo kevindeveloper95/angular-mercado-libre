@@ -74,7 +74,7 @@ justify-content: center ;
     justify-self:start;
     background-color: white;
     min-height: 570px;
-   margin-left: 250px;
+    margin-left: 315px;
     
 }
 
@@ -259,7 +259,7 @@ justify-content: center ;
         grid-column: 3/5;
         grid-row: 1;
         max-width: 200px;
-        min-width: 327px;
+        
         margin-top: 0px;
         
     }
@@ -271,8 +271,13 @@ justify-content: center ;
         color: #333;
         font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
         font-size: 14px;
+       
         
 
+    }
+
+    .lista{
+        width: 280px;
     }
 
     .title{
@@ -282,6 +287,7 @@ justify-content: center ;
         margin-left: 25px;
         margin-top: 20px;
         font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        min-width: 165px;
         
     }
 

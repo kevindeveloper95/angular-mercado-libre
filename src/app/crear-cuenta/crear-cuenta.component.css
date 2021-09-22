@@ -55,6 +55,7 @@
     color:#999;
     font-size: 14px;
     margin-top: 20px;
+    width: 250px;
     
 }
 .container-apellido{
@@ -127,6 +128,37 @@
     width: 628px;
     margin-left: 10px;
     
+}
+
+.container-apellido{
+    width: 300px;
+}
+
+.container-clave{
+    width: 300px;
+}
+
+
+
+.submit{
+    position: absolute;
+    top: 54%;
+    left: 47%;
+    
+    border-radius: 10px;
+    width: 69px;
+    padding: 4px;
+    
+}
+
+.submit:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+input.ng-untouched .ng-invalid{
+    border: solid 2px red;
+
 }
 
 @media (max-width: 1440px){

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+/* import * as glider-js from 'glider-js'; */
+
+
 
 @Component({
   selector: 'app-content',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }
