@@ -129,6 +129,7 @@ color:var(--color1)
 
     .description{
         font-size: 14px;
+        color: black;
         
     }
 
@@ -684,7 +685,7 @@ font-size: 20px;
  .nine-section-p{
      font-size: 15px;
      color: #999;
-     padding-left: 70px;
+     padding-left: 85px;
  }
 
  /* AQUI EMPIEZA EL RESPONSIVE WEB DESIGN */
